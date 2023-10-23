@@ -1,0 +1,6 @@
+@mixin rootElement{
+    :root{
+    --firstColor : red;
+    --secondColor:green;
+}
+}
