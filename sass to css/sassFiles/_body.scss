@@ -333,9 +333,11 @@ body{
     /*********POpup product*******/
     
     .back{
-
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
             .popup-product{
-
+                transform: scale(0.6);
             .active-img{
 
     
