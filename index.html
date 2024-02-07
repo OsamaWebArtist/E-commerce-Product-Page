@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce-Product-Page</title>
+    <link rel="icon" type="image/png" href="./online-shop.png">
+    
+    <link rel="stylesheet" href="./sass to css/index.css">
+    <link rel="stylesheet" href="./sass to css/normalize.css">
+    
+    <!--fonts kumbh Sans-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;500;700&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="ecom-page">
+      <div class="container">
+         
+        <!--head of the Page-->
+        <div class="header"> 
+          <div class="container"> 
+            <div class="logo"> <img src="./images/logo.svg" alt=""></div>
+            
+            <!--Section of buying Product-->
+            <div class="buy-card"> 
+              <div class="basket">
+                <div class="num-product"><span></span><img src="./images/icon-cart.svg" alt=""></div>
+                <div class="profile"> <img src="./images/image-avatar.png" alt=""></div>
+                <div class="card-product">
+                  <div class="head-card"><span>Cart</span></div>
+                  <div class="gray-line"> </div>
+                  <div class="all-prod">
+                    <!--.product 
+                    img(src="./images/image-product-1.jpg" alt="")
+                    span(class="title") Fall Limited Edition Sneakers
+                    div(class="price") <span>$125.00 x 3</span> <span>$375.00</span>
+                    img( class="delete" src="./images/icon-delete.svg" alt="")
+                    button(class="checkout") Checkout 
+                    -->
+                    <!--    -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Body Of The Website-->
+        <div class="bodyOfproduct"> 
+          <div class="container">
+            <div class="product-img"> 
+              <div class="active-img"><img src="./images/image-product-1.jpg" alt=""></div>
+              <div class="other-img"> <img class="active" src="./images/image-product-1-thumbnail.jpg" data-img="1" alt=""><img src="./images/image-product-2-thumbnail.jpg" data-img="2" alt=""><img src="./images/image-product-3-thumbnail.jpg" data-img="3" alt=""><img src="./images/image-product-4-thumbnail.jpg" data-img="4" alt=""></div>
+            </div>
+            <div class="info-prod"> <span>SNEAKER COMPANY </span>
+              <h2>Fall Limited Edition Sneakers</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente ipsum magni sed dolorum voluptates, ullam officiis placeat quis.</p>
+              <div class="price"><span>$125.00</span> <span>50%</span></div>
+              <div class="promo"><span>$200.00</span></div>
+              <div class="to-cart">
+
+                <div class="cart-num">
+                <span class="minus"><img src="./images/icon-minus.svg"></span> 
+                <span class="num-to-cart">1</span> 
+                <span class="plus"><img src="./images/icon-plus.svg"> </span>
+                </div>
+
+                <button><img src="./images/icon-cart.svg"> Add To Cart</button> 
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="back">
+      <div class="popup-product"> 
+        <div class="active-img"><img src="./images/image-product-1.jpg" alt=""><img class="close" src="./images/icon-close.svg" alt=""><img class="next" src="./images/icon-next.svg" alt=""><img class="pre" src="./images/icon-previous.svg" alt=""></div>
+        <div class="other-img"> <img src="./images/image-product-1-thumbnail.jpg" data-img="1" alt=""><img src="./images/image-product-2-thumbnail.jpg" data-img="2" alt=""><img src="./images/image-product-3-thumbnail.jpg" data-img="3" alt=""><img src="./images/image-product-4-thumbnail.jpg" data-img="4" alt=""></div>
+      </div>
+    </div>
+    <script src="./ecomJs/ecom.js"></script>
+  </body>
+</html>

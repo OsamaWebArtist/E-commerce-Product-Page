@@ -1,0 +1,85 @@
+doctype html
+html(lang="en")
+    head
+
+        meta(charset="UTF-8")
+        meta(name="viewport" content="width=device-width, initial-scale=1.0")
+        title Ecommerce-Product-Page
+        link(rel="icon" type="image/png"  ,href="./online-shop.png")
+
+        link(rel="stylesheet" href="/sass to css/index.css")
+        link(rel="stylesheet" href="/sass to css/normalize.css")
+
+    body
+        .ecom-page
+            .container 
+                |
+                //head of the Page
+                .header 
+                    .container 
+                        .logo 
+                            img(src="/images/logo.svg" alt="")
+                        |
+                        |
+                        //Section of buying Product
+                        .buy-card 
+
+                            .basket
+                                .num-product #[span]
+                                    img(src="/images/icon-cart.svg" alt="")
+
+                                .profile 
+                                    img(src="/images/image-avatar.png" alt="")
+
+                                .card-product
+                                    .head-card #[span Cart]
+                                    .gray-line 
+                                    .all-prod
+
+                                        //.product 
+                                            img(src="./images/image-product-1.jpg" alt="")
+                                            span(class="title") Fall Limited Edition Sneakers
+                                            div(class="price") #[span $125.00 x 3] #[span $375.00]
+                                            img( class="delete" src="./images/icon-delete.svg" alt="")
+                                            button(class="checkout") Checkout 
+                                        //    
+
+                //Body Of The Website
+
+                .bodyOfproduct 
+                    .container
+                        .product-img 
+                            .active-img
+                                img(src="./images/image-product-1.jpg" alt="")
+                            .other-img 
+                                img(src="./images/image-product-1-thumbnail.jpg" data-img="1" alt="" class="active")
+                                img(src="./images/image-product-2-thumbnail.jpg" data-img="2" alt="")
+                                img(src="./images/image-product-3-thumbnail.jpg" data-img="3" alt="")
+                                img(src="./images/image-product-4-thumbnail.jpg" data-img="4" alt="")
+                        .info-prod 
+                            span SNEAKER COMPANY 
+                            h2 Fall Limited Edition Sneakers
+                            p Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente 
+                                |ipsum magni sed dolorum voluptates, ullam officiis placeat quis.
+                            .price #[span $125.00] #[span 50%]
+                            .promo #[span $200.00]
+                            .to-cart #[span(class="minus") #[img(src="/images/icon-minus.svg")]] #[span(class="num-to-cart") 1] #[span(class="plus") #[img(src="/images/icon-plus.svg")] ] #[button #[img(src="/images/icon-cart.svg")] Add To Cart] 
+
+        .back
+            .popup-product 
+                .active-img
+                    img(src="./images/image-product-1.jpg" alt="")
+                    img(src="/images/icon-close.svg" alt="" class="close")
+                    img(src="/images/icon-next.svg" alt="" class="next")
+                    img(src="/images/icon-previous.svg" alt="" class="pre")
+                .other-img 
+                    img(src="./images/image-product-1-thumbnail.jpg" data-img="1" alt="")
+                    img(src="./images/image-product-2-thumbnail.jpg" data-img="2" alt="")
+                    img(src="./images/image-product-3-thumbnail.jpg" data-img="3" alt="")
+                    img(src="./images/image-product-4-thumbnail.jpg" data-img="4" alt="")
+
+
+
+        script(src="./ecomJs/ecom.js")
+
+
